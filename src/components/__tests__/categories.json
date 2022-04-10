@@ -1,0 +1,26 @@
+[
+    {
+        "categoryId": 1,
+        "title": "Hotel",
+        "description": "Lugar acojedor para disfrutar con la familia",
+        "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/hotel.jpeg"
+    },
+    {
+        "categoryId": 2,
+        "title": "Hostal",
+        "description": "Establecimientos humildes para viajeros y huespedes",
+        "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/hostal.jpeg"
+    },
+    {
+        "categoryId": 3,
+        "title": "Hostal",
+        "description": "Establecimientos humildes para viajeros y huespedes",
+        "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/hostal.jpeg"
+    },
+    {
+        "categoryId": 4,
+        "title": "Departamento",
+        "description": "Lugares distintos para tu agasajo",
+        "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/departamento.jpeg"
+    }
+]

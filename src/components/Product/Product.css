@@ -1,0 +1,274 @@
+.container-producto {
+    margin-top: 20px
+}
+
+.product-content {
+    margin-top: 60px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.product-content h2{
+    color: var(--dark-color);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+}
+.product__availability h2{
+    margin-left:15px;
+}
+
+
+.product__ubication-ratings{
+    padding:5px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,2,0.5);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.product__ubication {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 50%;
+}
+
+.product__ubication {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.product__ubication-map p {
+    font-weight: var(--font-weight-bold);
+}
+
+.product__ubication i {
+    margin-right: 5px;
+}
+
+.product__ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* background-color: blue; */
+    width: 50%;
+    align-items: center;
+
+}
+/*revisar este si va aca o no*/
+.product__ubication-back {
+    margin-right: 5px;
+}
+
+.product__ratings-clasification {}
+
+.product__ratings-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    /* padding: 5px; */
+    margin-left: 10px;
+    background-color: var(--medium-color);
+    border-radius: 10px;
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-bold);
+    color: var(--light-color);
+
+}
+
+.product__gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.product__description {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--light-color);
+}
+.product__description  h2{
+    margin-bottom:10px;
+    color: var(--dark-color);
+}
+
+.product__description  p{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    padding-left: 10px;
+}
+
+.product__description h2{
+    padding-left: 10px;
+}
+
+.product__features {
+    padding: 10px 0px;
+    background-color: var(--light-color);
+   
+}
+.product__features > h2{
+     padding-left: 20px;
+     padding-top: 20px;
+}
+
+
+.product__features-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.product__features-amenities{
+        display: flex;
+        flex-direction: columm;
+        justify-content: flex-start;
+        align-items: top;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-left: 20px;
+ } 
+
+.product__features-amenities-item {
+    width: 45vw;
+    padding-bottom: 15px;
+}
+
+.product__features-amenities-item img {
+    margin-right: 5px;
+}
+
+.product__availability {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--light-medium-color);
+}
+
+.product__availability-reserve {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 28px;
+    padding: 0px 5px;
+}
+
+.product__availability-reserve-button {
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.calendarReserve{
+    /*padding: 10px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__ubication-map {
+    background-color: var(--light-color);
+}
+
+.product__ubication-map h2, .product__ubication-map p {
+    padding: 20px 20px 10px 20px; 
+    margin-bottom: 0px;
+}
+
+.product__ubication-map__map{
+    padding: 20px;
+}
+
+#mapa {
+    border-radius: 20px;
+}
+
+
+.back {
+    color: #fff;
+}
+
+
+@media (min-width: 760px) and (max-width: 1359px) {
+
+    .product__availability {
+        padding: 25px;
+    }
+    .product__availability h2{
+        margin-left:0px;
+    }
+    
+
+    .product__availability-reserve {
+        padding: 0px;
+    }
+
+    .product__availability-reserve {
+        padding: 0 px;
+        flex-direction: row;
+    }
+
+    .product__availability-reserve-button {
+        width: 66%;
+    }
+}
+
+@media (min-width: 1360px) {
+    .product__availability h2 {
+        width: 100%;
+        margin-left:0px;  
+    }
+
+    .product__availability-reserve {
+        padding: 18px;
+        background-color: var(--light-color);
+        border-radius: unset;
+        border-radius: 0.4rem;
+        box-shadow: 3px 5px 4px rgb(0 0 0 / 12%);
+        width: 30%;
+        height: 150px;
+    }
+
+    .product__availability {
+        flex-direction: row;
+        background-color: #ececef;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 2.5rem 1.7rem;
+    }
+
+
+    .product__features-amenities {
+        display: flex;
+        flex-direction: row;
+        gap: 4vw;
+        align-items: top;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+    }
+
+    .product__features-amenities-item {
+        width: 20vw;
+        padding-bottom: 5px;
+    }
+
+}

@@ -1,0 +1,86 @@
+    .container{
+        height: auto;     
+        background-color: var(--light-gray-color);
+    }
+    .form-register-container{
+        padding:80px 0;
+    }
+    .section-title-register{
+        display: flex;
+        justify-content: center;
+        color: var(--main-color);
+        font-weight: var(--font-weight-bold);
+    }
+    .form{
+        display: flex;
+        justify-items: center;
+        align-content: center;
+        font-size: var(--font-size-4);
+        margin-top: 5px;
+    }
+    .form__label, .form__input{
+        display: block;
+    }
+    .form__body label{
+        margin-top: 0.1rem;
+    }
+    .form__label {
+        margin-top: 2vw;
+    }
+    .form_error{
+        margin: 0px;
+        color: red;
+        font-size: var(--font-size-5);
+        display: block; 
+        text-align: end;
+    }
+    .form__input{
+        height: 40px;
+        margin-top: 5px;
+        max-width: 450px;
+        min-width: 220px;
+    } 
+
+    #form__button{
+        margin: 5px;
+    }
+
+    .validation-errors {
+        background-color: #FFE1E1;
+        border: 1px solid #FF0000;
+    }
+
+    .register-button{
+        width: 200px;
+        height: 40px;
+    }
+
+@media  (min-height:725px) {
+        .form-register-container{
+            top: 10px;
+            padding: 0px;
+        }
+    }
+
+    @media (min-width: 730px)  and (max-width: 1360px) {
+ 
+}
+
+@media (min-width:1361px) {
+    .form__body{
+        width: 448px;
+    }
+    .form__input{
+        max-width: 448px;
+    }
+    .form{
+        margin-top: 10px;
+    }
+    .form__body--two{
+        display: flex;
+        justify-content: space-between;
+    }
+    #name, #surname{    
+        width: 218px;
+    }
+}

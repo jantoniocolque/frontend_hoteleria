@@ -1,0 +1,174 @@
+.booking-details{
+    width: 93vw;
+    border-radius: 6px;
+    border: 1px solid #DFE4EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--light-color);
+    margin-top: 4.5vw;
+}
+
+.booking-details-image{
+    width: 100%;
+    border: none;
+    object-fit: cover;
+    object-position: left center;
+    height: 300px;
+}
+
+.booking-details-img > .booking-title{
+    padding-left: 2vw;
+    margin-bottom: 20px;
+}
+
+.booking-details-info{
+    padding: 3vw 2vw;
+}
+
+.booking-details__product__category{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-bold);
+    color: grey;  
+}
+
+.booking-details-title {
+   font-size: var(--font-size-1);
+   color: var(--medium-color);
+   font-weight: var(--font-weight-bold);
+   margin-bottom: 5px;
+}
+
+.booking-details__product__score{
+    display: flex;
+    color: var(--main-color);
+    padding-bottom: 20px;
+}
+
+.booking-details__product__icon{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.booking-details__product__location{
+    display: flex;
+    gap: 0.5vw;
+    color: var(--medium-color);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-bold);
+}
+
+.booking-details__product__location__icon{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.booking-details-check{
+    margin-top: 25px;
+    padding-bottom: 10px;
+    color: var(--medium-color);
+    display: flex;
+}
+
+.booking-details-check h3 {
+    font-size: var(--font-size-4);
+    width: 70vw;
+}
+
+.booking-details-check p {
+    font-size: var(--font-size-4);
+}
+
+.booking-details-hr{
+    border: 0.5px solid grey;
+    width: 89vw;
+}
+
+.booking-details-button{
+    width: 89vw;
+    height: 60px;
+    margin-top: 3vw;
+}
+
+/*IPAD*/
+@media (min-width: 760px) and (max-width: 1359px){
+    .booking-details{
+        width: 95vw;
+        display: flex;
+        padding-bottom: 2vw;
+    } 
+    
+    .booking-details-img{
+        margin-bottom: 0px;
+        margin-left: 3vw;
+    }
+
+    .booking-details-image{
+        width: 40vw;
+        border-radius: 8px;
+        height: 86%;
+    }
+
+    .booking-details-img > .booking-title{
+        margin-bottom: 1vw;
+        padding-top: 20px;
+        padding-left: 0vw;
+    }
+
+    .booking-details-info{
+        padding: 6.5vw 2vw 0vw 2vw;
+    }
+
+    .booking-details-check h3 {
+        width: 40vw;
+    }
+    
+    .booking-details-hr{
+        width: 47vw;
+    }
+    
+    .booking-details-button{
+        width: 47vw;
+
+    }
+
+}
+
+/*DESKTOP*/
+@media (min-width: 1360px){
+    .booking-details{
+        width: 30vw;
+        margin-top: 4.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .booking-details-image{
+        height: 400px;
+    }
+    
+    .booking-details-info{
+        padding-top: 3vw;
+        padding-left: 2vw;
+    }
+
+    .booking-details__product__location__icon{
+        padding-bottom: 40px;
+    }
+    
+    .booking-details-check{
+        padding-bottom: 20px;
+      
+    }
+    
+    .booking-details-check h3 {
+        width: 20vw;
+    }
+    
+    .booking-details-hr{
+        width: 26vw;
+    }
+    
+    .booking-details-button{
+        width: 26vw;
+    }
+}

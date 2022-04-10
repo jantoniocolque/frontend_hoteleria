@@ -1,0 +1,154 @@
+/* contenedor principal de la galeria */
+.gallery{
+    height: 35vh !important;
+    width: 100vw;
+}
+
+/* minuaturas */
+._2c50p{
+    display: none;
+}
+
+._2ILZE{
+margin-left: -100px;
+margin-right: -22px;
+}
+
+.icono-share{
+    position: relative; 
+    color: white;
+    z-index: 2;
+    font-size: 20px;
+    height: 60px;
+}
+.icono-share > i{
+    padding:10px;
+}
+
+/* contenedor de imagenes max y minuaturas */
+._2ILZE ._3q7r8{
+    /* height: 100px; */
+}
+
+._3q7r8{
+    background-color: rgba(56, 59, 88, 0.7);
+}
+figure img {
+
+}
+._1oKnM{
+
+}
+._lhmht{
+    display:none;
+}
+._29p_Y{
+    bottom:0;
+    right: 0;   
+    left: 80vw;
+    top:29vh;
+}
+
+.ver-mas{
+    background: #fff;
+    font-weight: bold;
+    padding: 5px;
+    opacity: 0.75;
+    height: min-content;
+    visibility: hidden;
+}
+
+.gallery-arrows {
+    font-size: 20px;
+    padding: 0 10px;
+    color: #fff;
+    visibility: hidden;
+}
+@media (min-width: 768px) and (max-width: 1359px){
+    .gallery{
+        height: 30vh !important;
+        width: 100vw;
+    }
+    ._29p_Y{
+        bottom:0;
+        right: 0;   
+        left: 90vw;
+        top:25vh;
+    }
+}
+@media (min-width: 1360px) {
+    ._29p_Y{
+        /* bottom:0;
+        right: 0;   
+        left: 94vw;
+        top:26vh; */
+        bottom:0;
+        right: 0;   
+        /* left: 94vw; */
+        top:0;
+    }
+    ._2c50p{
+        display: block;
+        height: 400px;
+    }
+    ._1oKnM{
+        display: block;
+    }
+    ._-LJ2W{
+        justify-content: center;
+        background-color: var(--light-medium-color);
+        /* height: 200px */
+    }
+    .ver-mas{
+        background: #fff;
+        font-weight: bold;
+        padding: 5px;
+        opacity: 0.75;
+        height: min-content;
+        visibility: visible;
+        bottom: 0px;
+        
+    }
+    /*ver mas*/
+    ._1oKnM{
+        /* left: 94vw; */
+        top:90%;
+
+    }
+    .gallery-arrows {
+        font-size: 20px;
+        padding: 0 10px;
+        color: #fff;
+        visibility: visible;
+    }
+    /* minuaturas */
+    ._2c50p{
+        /* display: none; */
+        
+    }
+    .gallery{
+        height: 550px !important;
+        width: 100vw;
+    }
+    .gallery {
+        height: 500px !important;
+        width: 100vw;
+        display: flex;
+        flex-direction: row-reverse;}
+    
+    ._2c50p {
+        display: block;
+        height: 100%;  
+        margin-top: 0;
+    }
+    ._-LJ2W{
+        height:100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    }
+    ._1_Dg2 ._-LJ2W{
+        background-color: rgba(56, 59, 88, 0.7); 
+        flex-direction: row;}
+}
+

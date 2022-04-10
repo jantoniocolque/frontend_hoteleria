@@ -1,0 +1,120 @@
+.booking-form{
+    width: 93vw;
+    background-color: var(--light-color);
+    border: 1px solid #DFE4EA;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4vw;
+}
+
+.booking-form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vw;
+}
+
+.booking-form__label{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-3);
+    padding-bottom: 10px;
+    color: var(--medium-color);
+}
+
+.booking-form__input{
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2); 
+    height: 40px;
+    width: 100%;
+}
+
+.booking-form-covid{
+    display: flex;
+    width: 80vw;
+    gap: 40px;
+}
+
+.booking-form-checkbox{
+    width: 2vw;
+    height: 2vw; 
+    margin-left: 10px;   
+}
+
+.info{   
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-medium);
+}
+
+#name, #surname{
+    width: 100%;
+}
+
+#covid{
+    width: 84vw;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2); 
+    height: 70px;
+    font-family: var(--main-font-family);
+    color: var(--medium-color);
+    font-size: var(--font-size-4);
+}
+
+
+/*IPAD*/
+@media (min-width: 760px) and (max-width: 1359px){
+    .booking-form{
+        width: 95vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        padding: 3vw;
+    }
+
+    .booking-form-div{
+        max-width: 44vw;
+    }
+
+    #covid{
+        width: 88vw;
+        border: 1px solid #fff;
+        box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2); 
+        height: 70px;
+        font-family: var(--main-font-family);
+        color: var(--medium-color);
+        font-size: var(--font-size-4);
+    }
+
+}
+
+/*DESKTOP*/
+@media (min-width: 1360px)  {
+    .booking-form{
+        width: 65vw;
+        padding: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1vw;
+    }
+    
+    .booking-form-div{
+        max-width: 31vw;
+        margin-bottom: 1vw;
+    }
+    
+    .booking-form-covid{
+        width: 51vw;
+        gap: 20px;
+    }
+    
+    .booking-form-checkbox{
+        width: 1vw;
+        height: 1vw;   
+    }
+    
+    #covid{
+        width: 63vw;
+    }
+    
+}

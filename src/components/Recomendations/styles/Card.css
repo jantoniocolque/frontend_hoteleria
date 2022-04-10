@@ -1,0 +1,311 @@
+/*CARDS MAP*/
+.recommendation {
+    background-color: var(--light-medium-color);
+    width: 100%;
+}
+
+.title-recommendation {
+    color: var(--dark-color);
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+/*SINGLE CARD*/
+.card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 5%;
+    font-family: var(--main-font-family);
+    background-color: var(--light-color);
+}
+
+
+/*CARD IMAGE*/
+
+.card-list__image {
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.card-list__image__jpg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: transparent;
+    object-fit: cover;
+    object-position: left center;
+}
+
+.card-list__image__icon {
+    color: var(--light-color);
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+}
+
+/*CARD INFO*/
+
+.card-list__info {
+    position: relative;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.card-list__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.class-list__header__score {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*CATEGORY*/
+
+.card-list__info__category {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.card-list__info__category__title {
+    font-size: var(--font-size-5);
+    color: grey;
+    font-weight: var(--font-weight-bold);
+}
+
+.card-list__info__category__icon {
+    color: var(--main-color);
+    font-size: var(--font-size-5);
+}
+
+/*HOTEL NAME*/
+.card-list__info__title {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-bold);
+    padding-left: 0px;
+    color: var(--dark-color);
+}
+
+/*SCORE*/
+
+.card-list__info__score {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-list__info__score__number {
+
+    background-color: var(--dark-color);
+    width: 34px;
+    height: 27px;
+    border-radius: 20px;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.card-list__info__score__title {
+    color: var(--dark-color);
+    font-size: var(--font-size-4);
+    align-self: end
+}
+
+/*LOCATION*/
+
+.card-list__info__location {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-content: center;
+}
+
+.card-list__info__location__icon {
+    color: var(--medium-color);
+    font-size: var(--font-size-2);
+}
+
+.card-list__info__location__title {
+    color: var(--dark-color);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-bold);
+}
+
+.card-list__info__location__a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-bold);
+    padding-top: 2px;
+}
+
+/*AMENITIES*/
+
+.card-listo__info__amenities {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+    color: var(--dark-color);
+    font-size: var(--font-size-3);
+    margin: 5px 0;
+}
+
+/*DECRIPTION*/
+
+.card-list__info__description {
+    color: var(--dark-color);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-bold);
+    margin: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.card-list__info__description__more {
+    color: var(--main-color);
+}
+
+/*BUTTON*/
+
+.card-list__info__button {
+    width: 100%;
+    height: 40px;
+    color: var(--light-color);
+    background-color: var(--main-color);
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    padding: 10px;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-bold);
+}
+
+
+
+/*MEDIA QUERY*/
+
+
+
+/*IPAD*/
+@media (min-width: 760px) and (max-width: 1360px) {
+    .recommendation {
+        background-color: var(--light-medium-color);
+    }
+
+    .title-recommendation {
+        color: var(--dark-color);
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 100px;
+    }
+
+    .card-list {
+        flex-direction: row;
+        margin: 2%;
+        height: 280px;
+    }
+
+    /*CARD IMAGE*/
+
+    .card-list__image {
+        height: 100%;
+        width: 50%;
+    }
+
+    .card-list__info {
+        height: 100%;
+        width: 50%;
+    }
+}
+
+
+/*DESKTOP*/
+
+@media (min-width: 1361px) {
+    .recommendation {
+        background-color: var(--light-medium-color);
+    }
+
+    .title-recommendation {
+        color: var(--dark-color);
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+
+    /*CARD*/
+
+    .card-list {
+        flex-direction: column;
+        height: 280px;
+        width: 48vw;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*LATERAL IMAGE*/
+
+    .card-list__image {
+        height: 100%;
+        width: 50%;
+    }
+
+    /*LATERAL INFO*/
+
+    .card-list__info {
+        height: 100%;
+        width: 50%;
+        padding: 2%;
+    }
+}

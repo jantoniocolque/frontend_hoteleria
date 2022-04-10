@@ -1,0 +1,186 @@
+[
+    {
+        "productId": 1,
+        "name": "Hotel Faena",
+        "description": "En el corazón de Puerto Madero, disfruta de un hotel inspirado en las pasiones de Buenos Aires.",
+        "address": "445 Martha Salotti",
+        "latitude": -34.6083,
+        "longitude": -58.3712,
+        "location": {
+            "locationId": 1,
+            "city": "Buenos Aires",
+            "country": "Argentina"
+        },
+        "category": {
+            "categoryId": 1,
+            "title": "Hotel",
+            "description": "Lugar acojedor para disfrutar con la familia",
+            "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/hotel.jpeg"
+        },
+        "images": [
+            {
+                "imageId": 1,
+                "title": "Hotel faena img3",
+                "url": "https://th.bing.com/th/id/OIP.XCmI4AHxjd7lhh-E4sVrYAHaFj?pid=ImgDet&w=690&h=518&rs=1"
+            },
+            {
+                "imageId": 2,
+                "title": "Hotel faena img2",
+                "url": "https://admin.privateupgrades.com/_data/default-hotel_image/14/70524/faena-hotel-buenos-aires-17_1400x1400_auto.jpg"
+            },
+            {
+                "imageId": 3,
+                "title": "Hotel faena img5",
+                "url": "https://y.cdrst.com/foto/hotel-sf/41b1/granderesp/faena-hotel-buenos-aires-servicios-95e37ff.jpg"
+            },
+            {
+                "imageId": 4,
+                "title": "Hotel faena img1",
+                "url": "https://bucketnido.s3.amazonaws.com/Products/hotel-faena.webp"
+            },
+            {
+                "imageId": 5,
+                "title": "Hotel faena img4",
+                "url": "https://cdn.audleytravel.com/-/-/79/134068146060221128172072130146136042076191134035.jpg"
+            }
+        ]
+    },
+    {
+        "productId": 3,
+        "name": "Selina",
+        "description": "En el corazón de Bariloche, disfruta de un hostel inspirado en los paisajes de Bariloche.",
+        "address": "Av de Los Pioneros 200",
+        "latitude": -41.138519,
+        "longitude": -71.318314,
+        "location": {
+            "locationId": 4,
+            "city": "Bariloche",
+            "country": "Argentina"
+        },
+        "category": {
+            "categoryId": 2,
+            "title": "Hostal",
+            "description": "Establecimientos humildes para viajeros y huespedes",
+            "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/hostal.jpeg"
+        },
+        "images": [
+            {
+                "imageId": 11,
+                "title": "Alvear palace img5",
+                "url": "https://www.argentinaenviaje.com/wp-content/uploads/2021/03/selina_hotel_bariloche_habitacion-768x490.jpg"
+            },
+            {
+                "imageId": 12,
+                "title": "Alvear palace img2",
+                "url": "https://th.bing.com/th/id/OIP.omueeM0EOc-pbrxFxtz6YwHaE7?pid=ImgDet&rs=1"
+            },
+            {
+                "imageId": 13,
+                "title": "Alvear palace img4",
+                "url": "https://th.bing.com/th/id/OIP.EXo6fBylRw73l6AuGprouQHaE0?pid=ImgDet&rs=1"
+            },
+            {
+                "imageId": 14,
+                "title": "Alvear palace img3",
+                "url": "https://th.bing.com/th/id/R.0f07fae29a2d0506776b0beb0011ef64?rik=eVJLYA9%2f27Ppnw&pid=ImgRaw&r=0"
+            },
+            {
+                "imageId": 15,
+                "title": "Alvear palace img1",
+                "url": "https://bucketnido.s3.amazonaws.com/Products/hostal-selina.jpeg"
+            }
+        ]
+    },
+    {
+        "productId": 5,
+        "name": "Molvento",
+        "description": "En el corazón de Potrero Garay en Córdoba, disfruta de un complejo inspirado en los arboles que lo rodean.",
+        "address": "Ruta Prov. Nº5 Km 62",
+        "latitude": -31.5406,
+        "longitude": -64.364663,
+        "location": {
+            "locationId": 3,
+            "city": "Córdoba",
+            "country": "Argentina"
+        },
+        "category": {
+            "categoryId": 3,
+            "title": "Hostal",
+            "description": "Establecimientos humildes para viajeros y huespedes",
+            "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/hostal.jpeg"
+        },
+        "images": [
+            {
+                "imageId": 21,
+                "title": "Molvento-quincho",
+                "url": "https://www.molvento.com.ar/wp-content/uploads/2019/04/24032019-molvento-ph-g-viramonte-5576-editar.jpg"
+            },
+            {
+                "imageId": 22,
+                "title": "Molvento-departamento",
+                "url": "https://bucketnido.s3.amazonaws.com/Products/molvento.jpeg"
+            },
+            {
+                "imageId": 23,
+                "title": "Molvento-quincho2",
+                "url": "https://www.estudiomontevideo.com/wp-content/uploads/2020/08/12062020-EM-PD-Molvento-ph-G-Viramonte-1545.jpg"
+            },
+            {
+                "imageId": 24,
+                "title": "Molvento-cava",
+                "url": "https://www.molvento.com.ar/wp-content/uploads/2017/07/06.jpg"
+            },
+            {
+                "imageId": 25,
+                "title": "Molvento-arboles",
+                "url": "https://www.molvento.com.ar/wp-content/uploads/2018/10/bosque-y-lago-1024x768.jpg"
+            }
+        ]
+    },
+    {
+        "productId": 8,
+        "name": "Cabaña Mirador",
+        "description": "En las afueras de Bariloche, disfruta de un albergue inspirado en la naturaleza del sur argentino.",
+        "address": "Av Ezequiel Bustillo km 7",
+        "latitude": -41.127267,
+        "longitude": -71.351731,
+        "location": {
+            "locationId": 4,
+            "city": "Bariloche",
+            "country": "Argentina"
+        },
+        "category": {
+            "categoryId": 4,
+            "title": "Departamento",
+            "description": "Lugares distintos para tu agasajo",
+            "urlImage": "https://bucketnido.s3.amazonaws.com/Categories/departamento.jpeg"
+        },
+        "images": [
+            {
+                "imageId": 36,
+                "title": "Cabaña M-3",
+                "url": "https://barilocheturismo.gob.ar/images/actividades/lagos/nahuel-huapi/lago-nahuel-huapi-01.jpg"
+            },
+            {
+                "imageId": 37,
+                "title": "Cabaña M-2",
+                "url": "https://maderayconstruccion.com.ar/myc/wp-content/uploads/2016/09/CASA-EstauUbicada-Arelauquen-Bariloche-cuadrados-2.jpg"
+            },
+            {
+                "imageId": 38,
+                "title": "Cabaña M-4",
+                "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/7f/49/b7/lago-gutierrez-lodge.jpg?w=900&h=-1&s=1"
+            },
+            {
+                "imageId": 39,
+                "title": "Cabaña M",
+                "url": "https://bucketnido.s3.amazonaws.com/Products/cabana-m.jpeg"
+            },
+            {
+                "imageId": 40,
+                "title": "Cabaña M-interior",
+                "url": "https://maderayconstruccion.com.ar/myc/wp-content/uploads/2016/09/CASA-EstauUbicada-Arelauquen-Bariloche-cuadrados-3.jpg"
+            }
+        ]
+    }
+]

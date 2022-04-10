@@ -1,0 +1,166 @@
+#menu_mini {
+    /* position: fixed; */
+    z-index: 99;
+    right: 0;
+}
+
+.header {
+    padding: 20px;
+}
+
+#menu_on {
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    position: fixed;
+    z-index: 55;
+    transition: all 1s ease;
+    /* translate: -30vw;  */
+}
+
+#menu_on span {
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    background: var(--medium-color);
+    transition: all 1s ease;
+    /* Propiedades a animar | Tiempo | Tipo animación*/
+    transform-origin: 0px 100%;
+}
+
+#menu_on span:nth-child(2) {
+    top: calc(50% - 2px);
+}
+
+#menu_on span:nth-child(3) {
+    bottom: 0;
+}
+
+#menu-mobile {
+    position: fixed;
+    display: flex;
+    right: 10vw;
+    top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.menu_sidebar__header {
+    z-index: 50;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    height: 25%;
+    background-color: var(--main-color);
+    padding: 20px;
+    color: var(--light-color);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--main-font-family);
+}
+
+.menu_sidebar__icon {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    justify-content: right;
+    align-items: end;
+    font-size: var(--font-size-2);
+    color: var(--medium-color);
+    margin-bottom: 10px;
+    transform-origin: 0px 100%;
+}
+
+.menu_sidebar__icon i {
+    margin: 0 8px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -412px;
+    width: 75%;
+    z-index: 50;
+    background-color: var(--light-color);
+    opacity: 0;
+    transition: all 0.75s ease;
+    font-size: var(--font-size-3);
+    overflow-y: auto;
+    text-align: right;
+    color: var(--medium-color);
+    font-weight: var(--font-weight-bold);
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--medium-color);
+    transition: all ease 0.25s;
+    padding: 20px 0px;
+}
+
+nav ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+nav hr {
+    display: block;
+    height: 1px;
+
+    border-top: 1px solid var(--dark-color);
+
+}
+
+nav a:hover {
+    color: var(--dark-color);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.visible_menu__x {
+    transform: translate(-75vw, -10px);
+
+    position: fixed;
+}
+
+.visible_menu span:nth-child(1) {
+    transform: rotate(45deg) translate(-2px, 1px);
+    background-color: var(--light-color) !important;
+}
+
+.visible_menu span:nth-child(2) {
+    opacity: 0;
+}
+
+.visible_menu span:nth-child(3) {
+    transform: rotate(-45deg) translate(-3px, 3px);
+    background-color: var(--light-color) !important;
+}
+
+.visible_menu nav {
+    left: 0;
+    opacity: 1;
+}
+
+#menu_sidebar {
+    display: inline-block;
+    position: fixed;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 2, 0.5);
+}
+
+.logout {
+    color: var(--main-color)
+}
+
+@media (min-width: 761px) {
+    #menu_mini {
+        display: none;
+    }
+
+}

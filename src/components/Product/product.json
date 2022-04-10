@@ -1,0 +1,31 @@
+ {
+       "id": "1",
+       "category": "hotel",
+        "name": "Hotel Catedral",
+        "raiting": "Excelente",
+        "score": "9",
+        "location":{
+            "pais":"Argentina",
+            "provincia":"Buenos Aires",
+            "ciudad":"La Plata",
+            "direccion":"Avenida Siempre Viva, 742",
+            "lat": "-34.920742932456804",
+            "lng": "-57.958130305592064"
+        },
+       
+        "title": "Alójate en el corazón de La Plata",
+        "description": "Este sencillo hotel se encuentra en una calle residencial arbolada, a 4 minutos a pie de la Catedral de La Plata, a 5 de los jardines de Plaza Moreno y a 2 km de la estación de tren La Plata. \nLas habitaciones, sencillas y con capacidad para 3 personas, cuentan con muebles de madera, Wi‑Fi gratis, televisión por cable y aire acondicionado. \nEl hotel ofrece desayuno gratuito y dispone de un salón en el vestíbulo y una cafetería informal.",
+        "amenities": [ 
+             {"name":"cocina", "icon" :"/static/media/kitchen.30759d09.svg"}, 
+            
+             {"name":"Televisor", "icon" :"/static/media/tv.dfd30f88.svg"},  
+             {"name":"pileta", "icon" :"/static/media/air.3386aeae.svg"},  
+             {"name":"air", "icon" :"/static/media/air.3386aeae.svg"},   
+             {"name":"wifi", "icon" :"/static/media/wifi.935fd34c.svg"},  
+             {"name":"pets", "icon" :"/static/media/paw.bb552044.svg"},
+             {"name":"Estacionamiento gratuito", "icon" :"/static/media/parking.608a2b11.svg"}             
+         ] ,                
+        "normas": "Check-out:10:00 \nNo se permiten fiestas \nNo fumar",
+        "salud":"Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus.",
+        "cancelacion":"Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía."
+   } 
